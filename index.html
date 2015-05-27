@@ -10,27 +10,38 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
-	
-	<script src="js/bootstrap.min.js"></script>
-	
-	<script src="scripts/jquery.fullPage.min.js"></script>
 </head>
 <body>
-	<div class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
-			<a class="navbar-btn btn-success btn pull-right" href="contact.html">Contact Us</a>
-			<a class="navbar-btn btn-primary btn pull-right" href="download.html">Download</a>
-			<a class="navbar-btn btn-info btn pull-right" href="info.html">Who We Are</a>
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Kitsch</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="info.html">Who We Are</a></li>
+					<li><a href="download.html">Download</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<h1>Welcome to Kitsch</h1>
+			<p>Kitsch is a new social media platform for artists and non-artists. This social media site is specifically tailored for them to make tight neat interactive online art community by bringing local art cultures closer together and by increasing the interaction between these users around the world.</p>
 		</div>
 	</div>
 	
-	<div class="main-content">
-		<h3>
-			<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Kitsch
-		</h3>
-		
-		<p>Kitsch is a new social media platform for artists and non-artists. This social media site is specifically tailored for them to make tight neat interactive online art community by bringing local art cultures closer together and by increasing the interaction between these users around the world.</p>
-	</div>
-	
+	<!-- load scripts to load the web page faster -->
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
