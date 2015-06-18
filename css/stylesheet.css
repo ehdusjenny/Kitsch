@@ -15,10 +15,6 @@ body {
 body {
     font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-p {
-    padding: 25px 25px;
-    background-color: rgba(130,151,165,0.3);
-}
 
 a {
     color: #35526A;
@@ -33,6 +29,10 @@ a:focus {
     color: #337ab7;
 }
 
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 .light {
     font-weight: 400;
 }
@@ -66,7 +66,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #35526A;
+    color: #12BAC5;
 }
 
 .navbar-custom .nav li a {
@@ -92,7 +92,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: #7DCEED;
+    background-color: #96D8EA;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -119,7 +119,7 @@ a:focus {
 
 /*text-vertical-center*/
 .text-vertical-center {
-    display: table-cell;
+
     text-align: center;
     vertical-align: middle;
 }
@@ -164,10 +164,10 @@ a:focus {
     height: 60px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #12BAC5;
     border-radius: 100%!important;
     font-size: 35px;
-    color: #fff;
+    color:#12BAC5;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -241,11 +241,12 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../images/home.jpg) no-repeat center center scroll;
+    background: url(../images/Background.gif) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 /* About */
@@ -255,7 +256,7 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../images/about1.jpg) no-repeat center center scroll;
+    background: url(../images/Background.gif) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -268,7 +269,7 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../images/about2.jpg) no-repeat center center scroll;
+    background: url(../images/Background.gif) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -281,11 +282,16 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../images/download.jpg) no-repeat center center scroll;
+    background: url(../images/Background.gif) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.header .about .feature p {
+    padding: 25px 25px;
+    background-color: rgba(130,151,165,0.3);
 }
 
 
