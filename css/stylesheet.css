@@ -66,7 +66,7 @@ img.displayed {
 }
 
 .navbar-custom a {
-    color: #12BAC5;
+    color: #35526A;
 }
 
 .navbar-custom .nav li a {
@@ -262,6 +262,11 @@ img.displayed {
     background-size: cover;
     -o-background-size: cover;
 }
+.about p {
+    padding: 25px 25px;
+    background-color: rgba(130,151,165,0.3);
+}
+
 
 /* Features */
 .feature {
@@ -275,7 +280,10 @@ img.displayed {
     background-size: cover;
     -o-background-size: cover;
 }
-
+.feature p {
+    padding: 25px 25px;
+    background-color: rgba(130,151,165,0.3);
+}
 /* Download */
 .download {
     display: table;
@@ -289,12 +297,9 @@ img.displayed {
     -o-background-size: cover;
 }
 
-.header .about .feature p {
+.download p {
     padding: 25px 25px;
-    background-color: rgba(130,151,165,0.3);
-}
-
-
+   
 /* Footer */
 
 footer {
