@@ -88,6 +88,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     background: rgba(255,255,255,.5);
 }
+
 .navbar-custom img {
     display: none;
 }
@@ -124,7 +125,12 @@ a:focus {
         background: 0 0;
         background-color: rgba(255,255,255,.5);
     }
-
+	
+	.navbar-custom .navbar-right a {
+    	display:inline-block;
+		width: 100%;
+    }
+	
     /*.header {
        background: url(../images/home.jpg) no-repeat center center scroll; 
     }*/
@@ -316,6 +322,10 @@ a:focus {
     color:#fff;
     padding: 25px 15px;
     background-color: rgba(104, 102, 103,0.5);
+}
+
+.feature .icon-img {
+	margin-top: 15px;
 }
 
 /*----------*/
