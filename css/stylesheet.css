@@ -148,10 +148,11 @@ a:focus {
 /*--------------------*/
 
 .text-vertical-center {
-	position: fixed;
+	position: relative;
+	top: -75px;
 	bottom: 0px;
-	left: 50%;
     text-align: center;
+	width: 100%;
 }
 
 .light {
