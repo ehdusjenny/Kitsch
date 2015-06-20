@@ -37,7 +37,9 @@ a:focus {
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
 .navbar-custom a {
@@ -45,9 +47,9 @@ a:focus {
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover {
@@ -111,12 +113,6 @@ a:focus {
         letter-spacing: 1px;
         background: 0 0;
         background-color: rgba(255,255,255,.5);
-        -webkit-transition: background .3s ease-in-out;
-        -moz-transition: background .3s ease-in-out;
-        transition: background .3s ease-in-out;
-    }
-    .navbar-custom img {
-        display:none;
     }
 
     /*.header {
