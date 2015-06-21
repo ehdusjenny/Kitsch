@@ -10,8 +10,9 @@
 
 html,
 body {
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -136,7 +137,7 @@ a:focus {
 		position: relative;
 		width: 100%;
 		height: 100%;
-		background: url(../images/Mhome.jpg) no-repeat center center scroll !important;
+		background: url(../images/Mhome.jpg) no-repeat center center fixed !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
@@ -273,7 +274,7 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/Home.jpg) no-repeat center center scroll;
+	background: url(../images/Home.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -289,7 +290,7 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/bg.jpg) no-repeat left top scroll;
+	background: url(../images/bg.jpg) no-repeat left top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -318,7 +319,7 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/bg.jpg) no-repeat left top scroll;
+	background: url(../images/bg.jpg) no-repeat left top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
