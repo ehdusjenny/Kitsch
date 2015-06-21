@@ -10,9 +10,8 @@
 
 html,
 body {
-	max-width: 100%;
+	width: 100%;
 	height: 100%;
-	overflow-x: hidden;
 }
 
 body {
@@ -137,7 +136,7 @@ a:focus {
 		position: relative;
 		width: 100%;
 		height: 100%;
-		background: url(../images/Mhome.jpg) no-repeat center center fixed !important;
+		background: url(../images/Mhome.jpg) no-repeat center center scroll !important;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
@@ -274,11 +273,15 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/Home.jpg) no-repeat center center fixed;
+	background: url(../images/Home.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}
+
+.header img {
+	max-width: 768px;
 }
 
 /*-------*/
@@ -290,11 +293,16 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/bg.jpg) no-repeat left top fixed;
+	background: url(../images/bg.jpg) no-repeat left top scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}
+
+.about img {
+	float:left;
+	margin:0 5px 0 0;
 }
 
 .about p {
@@ -319,7 +327,7 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/bg.jpg) no-repeat left top fixed;
+	background: url(../images/bg.jpg) no-repeat left top scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -345,11 +353,16 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../images/bg.jpg) no-repeat top left scroll;
+	background: url(../images/bg.jpg) no-repeat left top scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+}
+
+.download img {
+	float:left;
+	margin:0 5px 0 0;
 }
 
 .download p {
@@ -359,7 +372,7 @@ a:focus {
 }
 
 .download h3 {
-	background-color :transparent;
+	background-color: transparent;
 	color: #BA2428;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
