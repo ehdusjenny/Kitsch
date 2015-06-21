@@ -378,6 +378,16 @@ a:focus {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/*--------------*/
+/* Social Media */
+/*--------------*/
+
+.social-media {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+
 /*--------*/
 /* Footer */
 /*--------*/
