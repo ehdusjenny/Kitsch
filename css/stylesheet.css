@@ -147,6 +147,14 @@ a:focus {
 		display: none;
 	}
 	
+	.text-vertical-center {
+		position: relative;
+		padding-top: 65%;
+		bottom: 0px;
+		text-align: center;
+		width: 100%;
+	}
+	
 	.about img {
 		display: none;
 	}
