@@ -147,14 +147,6 @@ a:focus {
 		display: none;
 	}
 	
-	.text-vertical-center {
-		position: relative;
-		padding-top: 140%;
-		bottom: 0px;
-		text-align: center;
-		width: 100%;
-	}
-	
 	.about img {
 		display: none;
 	}
@@ -169,8 +161,7 @@ a:focus {
 /*--------------------*/
 
 .text-vertical-center {
-	position: relative;
-	top: -75px;
+	position: absolute;
 	bottom: 0px;
 	text-align: center;
 	width: 100%;
