@@ -288,6 +288,7 @@ p.big{
 
 .header {
 	display: table;
+	text-align: center;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -298,8 +299,41 @@ p.big{
 	-o-background-size: cover;
 }
 
-.header img {
+#front-map {
+	position: relative;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+#map {
 	width: 71%;
+	height: auto;
+	overflow: hidden;
+}
+
+#leftX {
+	position: absolute;
+	left: 30%;
+	top: 51%;
+	max-width: 74%;
+	max-height: auto;
+}
+
+#middleX {
+	position: absolute;
+	left: 56%;
+	top: 54%;
+	max-width: 74%;
+	max-height: auto;
+}
+
+#rightX {
+	position: absolute;
+	left: 68%;
+	top: 13%;
+	max-width: 74%;
+	max-height: auto;
 }
 
 /*-------*/

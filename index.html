@@ -23,6 +23,9 @@
 	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 	
+ 	<!-- Hover CSS effects for X's-->
+ 	<link href="css/Hover/css/hover.css" rel="stylesheet" media="all">
+
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -55,7 +58,17 @@
 	<header id="top" class="header">
 		<div class="container-fluid">
 			<div class="row">
-				<img src="images/Logo-Map.gif" alt="Logo-Map" align="middle">
+				<div id="front-map">
+					<img id="map" src="images/Logo-Map.gif">
+
+						<a href="#about">
+						<img class="hvr-pulse-grow" id="leftX" src="images/XLeft.gif" /></a>
+						<a href="#download">
+						<img class="hvr-pulse-grow" id="middleX" src="images/XMiddle.gif" /></a>
+						<a href="#footer">
+						<img class="hvr-pulse-grow" id="rightX" src="images/XRight.gif" /></a>
+				</div>
+
 				<div class="text-vertical-center">
 					<a href="#about" class="btn btn-circle"><i class="fa fa-angle-double-down animated"></i></a>
 					<br><br>
@@ -180,7 +193,7 @@
 	</section>
 	
 	<!-- Footer -->
-	<footer>
+	<footer id="footer">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1 text-center">
@@ -256,6 +269,15 @@
 	$('.navbar-collapse ul li a').click(function() {
 		$('.navbar-toggle:visible').click();
 	});
+
+	window.onload = function () {
+		var left = document.getElementById('leftX');
+		var mid = document.getElementById('middleX');
+		var right = document.getElementById('rightX');
+		left.style.maxWidth = "" + (left.offsetWidth/1024) * 74 + "%";
+		mid.style.maxWidth = "" + (mid.offsetWidth/1024) * 74 + "%";
+		right.style.maxWidth = "" + (right.offsetWidth/1024) * 74 + "%";
+	}
 	</script>
 </body>
 </html>
