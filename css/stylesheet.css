@@ -30,6 +30,9 @@ a:focus {
 	text-decoration: none;
 	color: #96D8EA;
 }
+p.big{
+	line-height: 150%;
+}
 
 /*-----------*/
 /* Navigation*/
@@ -316,7 +319,7 @@ a:focus {
 	background-color: rgba(104, 102, 103,0.5);
 }
 
-.about h3 {
+.about h2 {
 	background-color :transparent;
 	color:#BA2428;
 	text-transform: uppercase;
@@ -376,7 +379,7 @@ a:focus {
 	background-color: rgba(104, 102, 103,0.5);
 }
 
-.download h3 {
+.download h2 {
 	background-color: transparent;
 	color: #BA2428;
 	text-transform: uppercase;
