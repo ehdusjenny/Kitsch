@@ -362,9 +362,6 @@ p.big{
 	padding: 25px 15px;
 	background-color: rgba(104, 102, 103,0.5);
 }
-.about b {
-	font-size: 30px
-}
 
 .about h2 {
 	background-color :transparent;
@@ -395,7 +392,7 @@ p.big{
 	background-color: rgba(104, 102, 103,0.5);
 }
 .feature b {
-	font-size: 30px
+	font-size: 28px
 }
 
 .feature .icon-img {
@@ -427,9 +424,6 @@ p.big{
 	color: #fff;
 	padding: 25px 15px;
 	background-color: rgba(104, 102, 103,0.5);
-}
-.download b {
-	font-size: 30px
 }
 
 .download h2 {
