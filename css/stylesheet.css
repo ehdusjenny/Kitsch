@@ -153,10 +153,19 @@ p.big{
 	.about img {
 		display: none;
 	}
-	
 	.download img {
 		display: none;
 	}
+	.about p {
+		font-size: 20px;		
+	}
+	.feature p {
+		font-size: 20px;		
+	}
+	.download p {
+		font-size: 20px;		
+	}
+	
 }
 
 /*--------------------*/
@@ -350,7 +359,7 @@ p.big{
 }
 
 .feature .icon-img {
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 /*----------*/
