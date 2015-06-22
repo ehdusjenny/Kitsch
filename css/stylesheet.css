@@ -162,6 +162,9 @@ p.big{
 	.feature p {
 		font-size: 20px;		
 	}
+	#kitsch-icon {
+		padding-right: 28px;
+	}
 	.download p {
 		font-size: 20px;		
 	}
