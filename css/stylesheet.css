@@ -39,7 +39,6 @@ p.big{
 /*-----------*/
 
 .navbar-custom {
-	padding: 20px;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -53,6 +52,7 @@ p.big{
 }
 
 .navbar-custom .nav li a {
+	font-size: 18px;
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
 	transition: background .3s ease-in-out;
@@ -87,7 +87,7 @@ p.big{
 /*------------------------------*/
 
 .navbar-custom.top-nav-collapse {
-	padding: 10px;
+	padding: 5px;
 	border-bottom: 1px solid rgba(255,255,255,.3);
 	background: rgba(255,255,255,.5);
 }
@@ -171,6 +171,7 @@ p.big{
 }
 
 .light {
+	font-size: 30px;
 	font-weight: 400;
 }
 
