@@ -165,10 +165,19 @@ p.big{
 	#kitsch-icon {
 		padding-right: 28px;
 	}
+
+	.icon-img {
+		padding-top: 20px;
+	}
+
+	#iPhone {
+		padding-top: 60px;
+	}
+
 	.download p {
 		font-size: 20px;		
 	}
-	
+
 }
 
 /*--------------------*/
@@ -402,6 +411,14 @@ p.big{
 .feature .icon-img {
 	position: relative;
 	z-index: 100;
+}
+
+#iPhone {
+	padding-top: 18px;
+}
+
+#islandMap {
+	padding-top: 20px;
 }
 
 /*----------*/
