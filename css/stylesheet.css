@@ -120,6 +120,9 @@ p.big{
 /* Custom Mobile Styles */
 /*----------------------*/
 @media(max-width:768px) {
+	 br {
+        line-height: 0.1px!important;
+     }
 	/*About Page*/
 	.about img {
 		display: none;
