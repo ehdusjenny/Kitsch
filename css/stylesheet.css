@@ -119,7 +119,40 @@ p.big{
 /*----------------------*/
 /* Custom Mobile Styles */
 /*----------------------*/
+@media(max-width:768px) {
+	.header img {
+		display: none;
+	}
+	
+	.about img {
+		display: none;
+	}
+	.download img {
+		display: none;
+	}
+	.about p {
+		font-size: 20px;		
+	}
+	.feature p {
+		font-size: 20px;		
+	}
+	.download p {
+		font-size: 20px;		
+	}
 
+	#kitsch-icon {
+		margin-top: 20px;
+	}
+
+	.icon-img {
+		margin-top: 20px;
+	}
+
+	#iPhone {
+		margin-top: 20px;
+	}
+
+}
 @media(max-width:480px) {
 	.navbar-custom {
 		padding: 0;
@@ -144,38 +177,6 @@ p.big{
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
-	}
-	
-	.header img {
-		display: none;
-	}
-	
-	.about img {
-		display: none;
-	}
-	.download img {
-		display: none;
-	}
-	.about p {
-		font-size: 20px;		
-	}
-	.feature p {
-		font-size: 20px;		
-	}
-	.download p {
-		font-size: 20px;		
-	}
-	
-	#kitsch-icon {
-		padding-right: 28px;
-	}
-
-	.icon-img {
-		padding-top: 20px;
-	}
-
-	#iPhone {
-		padding-top: 60px;
 	}
 
 }
