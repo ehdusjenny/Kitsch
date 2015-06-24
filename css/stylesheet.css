@@ -120,20 +120,16 @@ p.big{
 /* Custom Mobile Styles */
 /*----------------------*/
 @media(max-width:768px) {
-	
+	/*About Page*/
 	.about img {
-		display: none;
-	}
-	.download img {
 		display: none;
 	}
 	.about p {
 		font-size: 20px;		
 	}
+
+	/*Feature Page*/
 	.feature p {
-		font-size: 20px;		
-	}
-	.download p {
 		font-size: 20px;		
 	}
 
@@ -148,6 +144,17 @@ p.big{
 	#iPhone {
 		margin-top: 20px;
 	}
+
+	/*Download Page*/
+	.download img {
+		display: none;
+	}
+	.download p {
+		font-size: 20px;		
+	}
+	.download .col-sm-8{
+	margin-top: 5%!important;
+}
 
 }
 @media(max-width:480px) {
@@ -454,6 +461,10 @@ p.big{
 	color: #BA2428;
 	text-transform: uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.download .col-sm-8{
+	margin-top: 20%;
 }
 
 /*--------------*/
