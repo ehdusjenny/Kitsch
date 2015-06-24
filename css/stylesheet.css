@@ -120,7 +120,7 @@ p.big{
 /* Custom Mobile Styles */
 /*----------------------*/
 
-@media(max-width:768px) {
+@media(max-width:480px) {
 	.navbar-custom {
 		padding: 0;
 		border-bottom: 1px solid rgba(255,255,255,.3);
@@ -162,6 +162,10 @@ p.big{
 	.feature p {
 		font-size: 20px;		
 	}
+	.download p {
+		font-size: 20px;		
+	}
+	
 	#kitsch-icon {
 		padding-right: 28px;
 	}
@@ -172,10 +176,6 @@ p.big{
 
 	#iPhone {
 		padding-top: 60px;
-	}
-
-	.download p {
-		font-size: 20px;		
 	}
 
 }
