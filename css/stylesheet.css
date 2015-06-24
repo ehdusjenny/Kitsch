@@ -120,9 +120,6 @@ p.big{
 /* Custom Mobile Styles */
 /*----------------------*/
 @media(max-width:768px) {
-	.header img {
-		display: none;
-	}
 	
 	.about img {
 		display: none;
@@ -177,6 +174,9 @@ p.big{
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
+	}
+	.header img {
+		display: none;
 	}
 
 }
