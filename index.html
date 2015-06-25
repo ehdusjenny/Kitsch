@@ -58,7 +58,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div id="front-map">
-					<img id="map" src="images/Logo-Map.gif">
+					<img id="map" src="images/Logo-Map.png">
 
 						<a href="#about">
 						<img class="hvr-pulse-grow" id="leftX" src="images/XLeft.gif" /></a>
@@ -97,7 +97,7 @@
 				<!--Social Media-->
 				<div class="text-right social-media">
 					<ul class="list-inline">
-						<li><a href="mailto:admin@welcometokitsch.com"><i class="fa fa-envelope-o fa-fw fa-2x"></i> </a></li>
+						<li><a data-toggle="modal" data-target="#email"><i class="fa fa-envelope-o fa-fw fa-2x"></i> </a></li>
 						<li><a href="https://www.facebook.com/pages/Kitsch/1053756934640421?fref=ts&ref=br_tf"><i class="fa fa-facebook fa-fw fa-2x"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a></li>
 						<li><a href="#"><i class="fa fa-instagram fa-fw fa-2x"></i></a></li>
@@ -150,7 +150,7 @@
 				<!--Social Media-->
 				<div class="text-right social-media">
 					<ul class="list-inline">
-						<li><a href="mailto:admin@welcometokitsch.com"><i class="fa fa-envelope-o fa-fw fa-2x"></i> </a></li>
+						<li><a data-toggle="modal" data-target="#email"><i class="fa fa-envelope-o fa-fw fa-2x"></i> </a></li>
 						<li><a href="https://www.facebook.com/pages/Kitsch/1053756934640421?fref=ts&ref=br_tf"><i class="fa fa-facebook fa-fw fa-2x"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a></li>
 						<li><a href="#"><i class="fa fa-instagram fa-fw fa-2x"></i></a></li>
@@ -181,7 +181,7 @@
 				<!--Social Media-->
 				<div class="text-right social-media">
 					<ul class="list-inline">
-						<li><a href="mailto:admin@welcometokitsch.com"><i class="fa fa-envelope-o fa-fw fa-2x"></i> </a></li>
+						<li><a data-toggle="modal" data-target="#email"><i class="fa fa-envelope-o fa-fw fa-2x"></i> </a></li>
 						<li><a href="https://www.facebook.com/pages/Kitsch/1053756934640421?fref=ts&ref=br_tf"><i class="fa fa-facebook fa-fw fa-2x"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a></li>
 						<li><a href="#"><i class="fa fa-instagram fa-fw fa-2x"></i></a></li>
@@ -210,7 +210,7 @@
 		</div>
 	</footer>
 	
-	<!-- Modal -->
+	<!-- Modal for registering-->
 	<div class="modal fade" id="register" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -222,6 +222,34 @@
 				<div class = "modal-body">
 					<form action="">
 						<input type="email" class="input-large" name="email" placeholder="Enter Your Email" style='width:100%' required="required"><br><br>       
+					</form>
+				</div>
+				<div class="modal-footer">
+					<center><a class="btn btn-light" data-dismiss="modal">Submit</a></center>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- Modal for sending an e-mail -->
+	<div class="modal fade" id="email" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3>Ask us anything!</h3>
+					<p></p>
+				</div>
+				<div class = "modal-body">
+					<form action="">
+						<input type="text" class="input-large" name="email" placeholder="Enter Your Email" style='width:100%' required="required"><br><br>       
+					</form>
+					<form action="">
+						<input type="text" class="input-large" name="email-subject" placeholder="Subject" style='width:100%' required="required"><br><br>       
+					</form>
+					<form action="">
+					<textarea name="email-body" style='width:100%' rows="7" placeholder="Ask us anything!" required="required">
+					</textarea>	
 					</form>
 				</div>
 				<div class="modal-footer">
